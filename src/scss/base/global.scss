@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  scroll-behavior: smooth;
+  max-width: 100%;
+  overflow-x: hidden;
+  color: var(--white);
+  letter-spacing: 0.2rem;
+  text-align: start;
+}
+
+code{
+  font-weight: var(--bold);
+  font-size: 7rem;
+  color: var(--blue);
+}
+
+h1{
+  font-weight: var(--bold);
+  font-size: 4.5rem;
+}
+
+span{
+  color: var(--blue);
+  font-size: 2rem;
+}
+
+p{
+  color: var(--gray);
+  font-size: 2rem;
+}
+

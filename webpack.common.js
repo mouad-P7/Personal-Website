@@ -8,10 +8,10 @@ module.exports = {
         assetModuleFilename: 'images/[name][ext]',
         clean: true
     },
-    plugins: [
-        new htmlWebpackPlugin({template: "./src/template.html"})
-    ],
     devtool: 'source-map',
+    plugins: [
+        new htmlWebpackPlugin({template: "./src/is.html"})
+    ],
     module: {
         rules: [
             {

@@ -1,0 +1,14 @@
+@use '../base' as *;
+
+main{
+  padding: 0 20rem;
+
+  section{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+}

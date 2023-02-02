@@ -4,4 +4,5 @@ import './scss/style.scss';
 // import images
 import "./images/favicon.jpg";
 
-console.log("hi")
+
+

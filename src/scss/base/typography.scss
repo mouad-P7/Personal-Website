@@ -1,0 +1,15 @@
+*{
+  font-family: var(--basic-font);
+  font-weight: var(--regular);
+}
+
+html{font-size: 62.5%;}// 1rem = 10px
+
+a, a:visited, a:active{
+  text-decoration: none;
+  color: unset;
+}
+
+ul{list-style: none;}
+
+ 
