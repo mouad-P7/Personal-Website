@@ -15,11 +15,17 @@ code{
   font-weight: var(--bold);
   font-size: 7rem;
   color: var(--blue);
+  padding-bottom: 5rem;
 }
 
 h1{
   font-weight: var(--bold);
   font-size: 4.5rem;
+}
+
+h1 > span{
+  font-size: inherit;
+  font-weight: inherit;
 }
 
 span{

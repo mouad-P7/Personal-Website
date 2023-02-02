@@ -1,1 +1,14 @@
 @use '../base' as *;
+
+#story{
+  padding: 20rem 0;
+
+  .time-frame{
+    font-family: var(--cool-font);
+    font-weight: var(--regular);
+  }
+  
+  .story-part{
+    min-height: 40vh;
+  }
+}
