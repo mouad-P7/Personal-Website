@@ -4,14 +4,15 @@ header{
   position: fixed;
   top: 0;
   left: 0;
-  height: 6rem;
+  height: 10rem;
   width: 100%;
-  padding-left: 2rem;
-  padding-right: 3rem;
+  padding: 2rem 3rem 0 2rem;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  background-color: var(--black);
+  align-items: flex-start;
+  // background-color: var(--black);
+  background: linear-gradient(to bottom, var(--black) 50%, transparent);
+
 
   *{
     font-weight: var(--regular);
