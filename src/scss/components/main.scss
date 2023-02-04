@@ -2,4 +2,12 @@
 
 main{
   padding: 0 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  @include breakpoint-max-width(xlarge){align-items: flex-start;}
+  @include breakpoint-max-width(large){padding: 0 5rem;}
+  @include breakpoint-max-width(medium){padding: 0;}
 }

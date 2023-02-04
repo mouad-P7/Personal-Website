@@ -1,3 +1,5 @@
+@use './break-points.scss' as *;
+
 *{
   margin: 0;
   padding: 0;
@@ -33,28 +35,34 @@ ul{list-style: none;}
 
 code{
   font-weight: var(--bold);
-  font-size: 7rem;
   color: var(--blue);
   padding-bottom: 5rem;
+  font-size: 7rem;
+  @include breakpoint-max-width(medium){font-size: 6.5rem;}
 }
 
 h1{
   font-weight: var(--bold);
   font-size: 4.5rem;
+  @include breakpoint-max-width(medium){font-size: 4.2rem;}
 }
 
-h1 > span{
-  font-size: inherit;
-  font-weight: inherit;
+h2{
+  font-weight: var(--bold);
+  font-size: 4.5rem;
+  @include breakpoint-max-width(medium){font-size: 3.5rem;}
 }
 
 span{
   color: var(--blue);
-  font-size: 2rem;
+  font-size: inherit;
+  font-weight: inherit;
+  @include breakpoint-max-width(medium){font-size: 1.8rem;}
 }
 
 p{
   color: var(--gray);
   font-size: 2rem;
+  @include breakpoint-max-width(medium){font-size: 1.8rem;}
 }
 
