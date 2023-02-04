@@ -24,11 +24,43 @@ header{
     font-weight: var(--bold);
   }
 
+  .header-nav-btn{
+    display: none;
+    background-color: var(--black);
+    z-index: 100;
+  }
+  .open-menu-btn{
+    @include breakpoint-max-width(medium){display: inline-block;}
+  }
+  .close-menu-btn{
+    @include breakpoint-max-width(medium){display: none;}
+  }
+  .open-icon, .close-icon{font-size: 2.5rem;}
+
   nav{
     flex-basis: 26rem;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    @include breakpoint-max-width(medium){
+      position: fixed;
+      flex-direction: column;
+      align-items: flex-end;
+      width: 100vw;
+      height: 100vh;
+      padding: 65vh 4rem 8rem 0;
+      z-index: 90;
+      background-color: var(--black);
+      opacity: 0.9;
+      left: 100vw
+    }
+
+    a{
+      @include breakpoint-max-width(medium){
+        font-weight: var(--bold);
+        font-size: 2.5rem;
+      }
+    }
   }
 
   // #is-page, #about-page{}
@@ -36,6 +68,7 @@ header{
   .linkedin-icon, .github-icon{
     font-size: 2.5rem;
     color: var(--blue);
+    @include breakpoint-max-width(medium){font-size: 4rem;}
   }
 }
 
