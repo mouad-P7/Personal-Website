@@ -1,0 +1,46 @@
+@use '../base' as *;
+
+#about{
+  padding-top: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-basis: 50rem;
+
+  #profil-img{
+  display: none;
+  pointer-events: none;
+  position: fixed;
+  z-index: 10;
+  top: 20vh;
+  left: -8vw;
+  width: 35vw;
+  border-radius: 100%;
+  filter: grayscale(1) brightness(1);
+  // mix-blend-mode: difference;
+  }
+
+  .cv-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .cv-btn{
+    background-color: var(--blue);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 7rem;
+    height: 2.6rem;
+    padding: 0 0.8rem;
+    border-radius: 2rem;
+
+    p{color: var(--black);}
+
+    .download-icon{color: var(--black);}
+  }
+  .cv-btn:hover{background-color: var(--white);}
+}
