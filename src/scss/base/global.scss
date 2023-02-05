@@ -48,8 +48,9 @@ h1{
 }
 
 h2{
-  font-weight: var(--bold);
-  font-size: 4.5rem;
+  font-size: 4.5rem;  
+  font-family: var(--cool-font);
+  font-weight: var(--regular);
   @include breakpoint-max-width(medium){font-size: 3.5rem;}
 }
 

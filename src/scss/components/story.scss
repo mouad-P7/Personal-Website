@@ -2,13 +2,6 @@
 
 #story{
   padding-top: 20rem;
-
-  .time-frame{
-    font-family: var(--cool-font);
-    font-weight: var(--regular);
-  }
   
-  .story-part{
-    min-height: 40vh;
-  }
+  .story-part{min-height: 40vh;}
 }
