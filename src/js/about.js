@@ -6,6 +6,7 @@ import '../images/favicon.jpg';
 import '../images/logo-p7.png';
 import '../images/jquery-icon.jpg';
 import '../images/webpack-icon.png';
+import '../images/openclassrooms-icon.png';
 
 // import js
 import './menu-btn';
