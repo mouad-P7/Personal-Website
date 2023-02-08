@@ -2,7 +2,7 @@
 import './scss/style.scss';
 
 // import images
-import "./images/favicon.jpg";
+import "./images/favicon.png";
 import "./images/blue-potion.png";
 
 // import js

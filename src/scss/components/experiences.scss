@@ -8,6 +8,8 @@
   width: 100%;
   overflow: visible;
 
+  *{overflow: visible;}
+
   .experiences-container{
     display: flex;
     justify-content: space-between;

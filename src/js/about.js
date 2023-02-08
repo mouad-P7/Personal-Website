@@ -2,9 +2,9 @@
 import '../scss/style.scss';
 
 // import images
-import '../images/favicon.jpg';
+import '../images/favicon.png';
 import '../images/logo-p7.png';
-import '../images/jquery-icon.jpg';
+import '../images/jquery-icon.png';
 import '../images/webpack-icon.png';
 import '../images/openclassrooms-icon.png';
 

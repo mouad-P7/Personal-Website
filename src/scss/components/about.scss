@@ -10,15 +10,20 @@
 
   #profil-img{
   display: none;
-  pointer-events: none;
-  position: fixed;
-  z-index: 10;
-  top: 20vh;
-  left: -8vw;
-  width: 35vw;
-  border-radius: 100%;
-  filter: grayscale(1) brightness(1);
+  // pointer-events: none;
+  // position: fixed;
+  // z-index: 10;
+  // top: 15vh;
+  // left: -12vw;
+  // width: 40vw;
+  // border-radius: 100%;
+  // filter: grayscale(1) brightness(1);
   // mix-blend-mode: difference;
+  }
+
+  & > p{
+    padding: 0.6rem 0;
+    line-height: 2.3rem;
   }
 
   .cv-container{

@@ -25,6 +25,7 @@
   }
 
   .certif-name{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -47,6 +48,7 @@
     }
     p{
       text-align: center;
+      width: 100%;
       @include breakpoint-max-width(medium){text-align: start;}
     }
   }
