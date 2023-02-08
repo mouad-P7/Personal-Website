@@ -32,7 +32,7 @@
     @include breakpoint-max-width(medium){align-items: flex-start;}
 
     img{
-      flex: 0 1 12%;
+      flex: 0 1 15%;
       max-width: 2.5rem;
       max-height: 2.5rem;
       background-color: transparent;
@@ -41,7 +41,7 @@
     .freecodecamp-icon{
       flex: 1 1 12%;
       @include breakpoint-max-width(medium){
-        flex: 1 1 3rem;
+        flex: 1 1 4.5rem;
         padding: 0;
       }
     }

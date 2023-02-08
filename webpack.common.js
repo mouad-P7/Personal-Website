@@ -8,7 +8,6 @@ module.exports = {
     },
     output: {
         path: path.resolve(__dirname,"public"),
-        assetModuleFilename: 'images/[name][ext]',
         clean: true,
     },
     plugins: [
@@ -32,6 +31,12 @@ module.exports = {
             {
                 test: /\.(png|svg|jpe?g|gif|ico)$/,
                 type: 'asset/resource',
+                generator: {filename: 'images/[name][ext]'},
+            },
+            {
+                test: /\.(mp4|webm|ogg)$/,
+                type: 'asset/resource',
+                generator: {filename: 'videos/[name][ext]'},
             },
             {
                 test: /\.js$/, 
