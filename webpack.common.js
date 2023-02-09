@@ -29,6 +29,14 @@ module.exports = {
                 use: ["style-loader","css-loader","sass-loader"],
             },
             {
+                test: /\.js$/, 
+                exclude: /node_modules/,
+                use: {
+                    loader: 'babel-loader',
+                    options: {presets: ['@babel/preset-env']},
+                },
+            },
+            {
                 test: /\.(png|svg|jpe?g|gif|ico)$/,
                 type: 'asset/resource',
                 generator: {filename: 'images/[name][ext]'},
@@ -39,12 +47,9 @@ module.exports = {
                 generator: {filename: 'videos/[name][ext]'},
             },
             {
-                test: /\.js$/, 
-                exclude: /node_modules/,
-                use: {
-                    loader: 'babel-loader',
-                    options: {presets: ['@babel/preset-env']},
-                },
+                test: /\.(pdf)$/,
+                type: 'asset/resource',
+                generator: {filename: 'pdf/[name][ext]'},
             },
         ],
     },

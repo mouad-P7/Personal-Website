@@ -13,6 +13,9 @@ import '../videos/personal-website.mp4';
 import '../videos/riot-games.mp4';
 import '../videos/social-media-dashboard.mp4';
 
+// import files
+ import '../pdf/cv.pdf'
+
 // import js
 import './menu-btn';
 
