@@ -1,0 +1,26 @@
+@use '../base' as *;
+
+.spine-wrapper{
+  pointer-events: none;
+  position: fixed;
+  top: 50vh;
+  bottom: 0;
+  left: 10rem;
+  width: 2px;
+  background: var(--blue);
+  @include breakpoint-max-width(large){left: 5rem;}
+  @include breakpoint-max-width(medium){left: 1rem;}
+
+  .spine-dot{
+    pointer-events: none;
+    position: fixed;
+    top: calc(50vh - 8px);
+    left: calc(10rem - 0.3rem);
+    width: 9px;
+    height: 9px;
+    background-color: var(--blue);
+    border-radius: 50%;
+    @include breakpoint-max-width(large){left: calc(5rem - 0.3rem);}
+    @include breakpoint-max-width(medium){left: calc(1rem - 0.3rem);}
+  }
+}
