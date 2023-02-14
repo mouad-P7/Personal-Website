@@ -1,3 +1,7 @@
+// import js
+import './preloader';
+import './menu-btn';
+
 // import styles
 import '../scss/style.scss';
 
@@ -15,9 +19,6 @@ import '../videos/social-media-dashboard.mp4';
 
 // import files
  import '../pdf/cv.pdf'
-
-// import js
-import './menu-btn';
 
 
 $(document).ready(function(){
