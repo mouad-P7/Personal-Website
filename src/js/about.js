@@ -3,7 +3,7 @@ import '../scss/style.scss';
 
 // import images
 import '../images/favicon.png';
-import '../images/logo-p7.png';
+import '../images/personal-img.jpg';
 import '../images/jquery-icon.png';
 import '../images/webpack-icon.png';
 import '../images/openclassrooms-icon.png';
@@ -18,6 +18,7 @@ import '../videos/social-media-dashboard.mp4';
 
 // import js
 import './menu-btn';
+
 
 $(document).ready(function(){
 

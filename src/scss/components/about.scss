@@ -1,7 +1,7 @@
 @use '../base' as *;
 
 #about{
-  padding-top: 30vh;
+  padding-top: 25vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -9,16 +9,25 @@
   min-height: 50rem;
 
   #profil-img{
-  display: none;
-  // pointer-events: none;
-  // position: fixed;
-  // z-index: 10;
-  // top: 15vh;
-  // left: -12vw;
-  // width: 40vw;
-  // border-radius: 100%;
-  // filter: grayscale(1) brightness(1);
-  // mix-blend-mode: difference;
+  pointer-events: none;
+  position: fixed;
+  z-index: 5;
+  top: 15vh;
+  left: -18vw;
+  width: 40vw;
+  border-radius: 100%;
+  filter: grayscale(0) brightness(1.3);
+  mix-blend-mode: soft-light;
+  @include breakpoint-max-width(large){
+    top: -15vh;
+    left: 19%;
+    width: 60vw;
+  }
+  @include breakpoint-max-width(medium){
+    top: 0;
+    left: 12%;
+    width: 70vw;
+  }
   }
 
   & > p{
