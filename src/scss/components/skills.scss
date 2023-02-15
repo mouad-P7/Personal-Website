@@ -26,6 +26,7 @@
     img{
       width: 2.5rem;
       background-color: transparent;
+      @include breakpoint-max-width(small){width: 1.8rem;}
     }
   }
 }

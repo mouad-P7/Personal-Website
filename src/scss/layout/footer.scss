@@ -1,7 +1,6 @@
 @use '../base' as *;
 
 footer{
-  height: 12rem;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -9,10 +8,11 @@ footer{
   padding: 4rem 0;
 
   p{
-    font-size: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    a{margin: 0;}
   }
 
   span{font-size: inherit;}

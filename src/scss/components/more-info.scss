@@ -19,10 +19,6 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 1rem;
-
-    p{
-      @include breakpoint-max-width(small){font-size: 1.54rem;}
-    }
+    gap: 0.4rem;
   }
 }

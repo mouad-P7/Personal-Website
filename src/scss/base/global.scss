@@ -39,12 +39,14 @@ code{
   padding-bottom: 5rem;
   font-size: 7rem;
   @include breakpoint-max-width(medium){font-size: 6.5rem;}
+  @include breakpoint-max-width(small){font-size: 5.5rem;}
 }
 
 h1{
   font-weight: var(--bold);
   font-size: 4.5rem;
   @include breakpoint-max-width(medium){font-size: 4.2rem;}
+  @include breakpoint-max-width(small){font-size: 2.9rem;}
 }
 
 h2{
@@ -52,19 +54,20 @@ h2{
   font-family: var(--cool-font);
   font-weight: var(--regular);
   @include breakpoint-max-width(medium){font-size: 3.5rem;}
+  @include breakpoint-max-width(small){font-size: 2.9rem;}
 }
 
 span{
   color: var(--blue);
   font-size: inherit;
   font-weight: inherit;
-  @include breakpoint-max-width(medium){font-size: 1.8rem;}
 }
 
 p{
   color: var(--gray);
   font-size: 2rem;
   @include breakpoint-max-width(medium){font-size: 1.8rem;}
+  @include breakpoint-max-width(small){font-size: 1.25rem;}
 }
 
 button{border: none;}
@@ -77,6 +80,7 @@ i{
   color: var(--blue);
   padding: 0 0.5rem;
   font-size: 2.5rem;
+  @include breakpoint-max-width(small){font-size: 1.8rem;}
 }
 
 .card{
