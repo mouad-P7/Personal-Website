@@ -36,7 +36,7 @@ ul{list-style: none;}
 code{
   font-weight: var(--bold);
   color: var(--blue);
-  padding-bottom: 5rem;
+  padding-bottom: 3rem;
   font-size: 7rem;
   @include breakpoint-max-width(medium){font-size: 6.5rem;}
   @include breakpoint-max-width(small){font-size: 5.5rem;}

@@ -2,3 +2,11 @@
   from{background-position: 0%;}
   to{background-position: -200%;}
 }
+
+@keyframes potion{
+  from{rotate: 0deg;}
+  25%{rotate: 30deg;}
+  75%{rotate: -30deg;}
+  to{rotate: 0deg;}
+}
+
