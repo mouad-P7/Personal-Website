@@ -1,6 +1,7 @@
 // import js
 import './preloader';
 import './menu-btn';
+import './animation';
 
 // import styles
 import '../scss/style.scss';
