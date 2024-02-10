@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Linkedin, Github } from "lucide-react";
+import { LinkedInLogoIcon, GitHubLogoIcon } from "@radix-ui/react-icons";
 import { Button } from "@/components/ui/button";
 import {
   Tooltip,
@@ -48,10 +48,10 @@ export default function HomePage() {
           url="https://www.linkedin.com/in/mouad-ananouch-51b088229/"
           tooltip="LinkedIn"
         >
-          <Linkedin size={25} />
+          <LinkedInLogoIcon className="h-[25px] w-[25px]" />
         </SocialMediaLink>
         <SocialMediaLink url="https://www.github.com/mouad-P7" tooltip="Github">
-          <Github size={25} />
+          <GitHubLogoIcon className="h-[25px] w-[25px]" />
         </SocialMediaLink>
       </div>
     </div>
